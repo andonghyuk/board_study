@@ -12,12 +12,13 @@
 try{
 Class.forName("org.mariadb.jdbc.Driver");
 String url = "jdbc:mariadb://localhost:3306";
-String user = "root";
-String password = "1234";
+String user = "test";
+String password = "test";
 Connection conn = DriverManager.getConnection(url, user, password);
 }catch(Exception e){
 	out.println(e);
 }
 %>
+index.jsp 파일입니다.
 </body>
 </html>
