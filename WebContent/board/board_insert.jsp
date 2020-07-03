@@ -13,5 +13,8 @@
 	사용자 : <input type="text" name="creusr"><br>
 	<button>작성</button>
 	</form>
+	
+	
+
 </body>
 </html>

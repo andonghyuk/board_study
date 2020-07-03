@@ -42,5 +42,6 @@ public class Connector {
 				e.printStackTrace();
 			}
 		}
+		conn = null;
 	}
 }
